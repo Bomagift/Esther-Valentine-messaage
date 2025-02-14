@@ -1,0 +1,30 @@
+.message-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #2b2b2b;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    max-width: 100%;
+    margin: auto;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  .typing::after {
+    content: "|";
+    animation: blink 0.8s infinite;
+  }
+  button:hover {
+    background-color: #8f7c3d;
+  }
+  
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
