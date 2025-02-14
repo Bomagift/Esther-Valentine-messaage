@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LandingPage from "../src/components/LandingPage";
-import RiddlePage from "../src/components/RiddlePage";
-import QRPage from "../src/components/QRPage";
-import MessagePage from "../src/components/MessagePage";
+import LandingPage from "../src/Components/LandingPage";
+import RiddlePage from "../src/Components/RiddlePage";
+import QRPage from "../src/Components/QRPage";
+import MessagePage from "../src/Components/MessagePage";
 const App = () => (
   <Router>
     
