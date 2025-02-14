@@ -87,12 +87,12 @@ input:focus {
   }
 
   p {
-      font-size: 1.1rem;
+      font-size: 10px;
       max-width: 95%;
   }
 
   button {
-      font-size: 0.3rem;
+      font-size: 5rem;
       padding: 8px 20px;
   }
 
